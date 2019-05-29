@@ -5,7 +5,9 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 const app = express()
-const port = 3000
+
+// for deployment we need this port variable
+const port = process.env.PORT || 3000
 const publicDirectory = path.join(__dirname, '../public')
 const viewsPATH = path.join(__dirname, '../client/views')
 const partialsPATH = path.join(__dirname, '../client/partials')
