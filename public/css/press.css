@@ -1,0 +1,51 @@
+#press-group {
+    margin-bottom: 50px;
+  }
+  #press-group img {
+    width: 100%;
+  }
+  .quarter-quad {
+    width: 24.99999%;
+    float: left;
+    padding: 20px;
+  }
+  /* header or H2 font  */
+  .press-date-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    color: #9CD1F4;
+  }
+  #button-review {
+    padding: 25px 0;
+    border: 0.5px solid #3F3F3F;
+    background-color: #151516;
+  }
+  /*  --------------------------------------- RESPONSIVE CHANGES -- */
+  @media screen and (max-width: 1499px) {
+    .quarter-quad {
+      width: 33.11111%;
+      padding: 30px;
+    }
+    .press-date-header {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 937px) {
+    .quarter-quad {
+      width: 49.99999%;
+      padding: 40px;
+    }
+    .press-date-header {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .quarter-quad {
+      width: 100%;
+      padding: 15px;
+    }
+    .press-date-header {
+      font-size: 20px;
+    }
+  }
+  

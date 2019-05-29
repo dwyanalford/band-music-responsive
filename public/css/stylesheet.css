@@ -1,0 +1,313 @@
+/* UNIVERSAL BUTTON */
+body {
+  background-color: #000;
+}
+
+p {
+  color: #999;
+}
+
+.button-global {
+    padding: 14px;
+    border: 1px solid #777777;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #0C8FF9;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-shadow: none;
+    letter-spacing: normal;
+  }
+  .button-global:hover {
+    background-color: #EFC028;
+    color: #000000;
+  }
+  /* Font for Main Header sections */
+  .head-font {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #9d9d9d;
+  }
+  /* Font for Event Headers */
+  .event-font {
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+  }
+  /* NAVIGATION SECTION */
+  #top-bar {
+    height: 110px;
+  }
+
+  /* #tagline-mobile {
+    display: none;
+  } */
+  
+  nav {
+    padding-top: 15px;
+  }
+  .drop-class {
+    background-color: #000000!important;
+    color: #ffffff!important;
+  }
+  .drop-class:hover {
+    background-color: #000000!important;
+    color: #f4bf42!important;
+  }
+  /* HERO SECTION -  */
+  #main-logo {
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+
+  #hero {
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  section#hero h1 {
+    font-size: 50px;
+  }
+
+  section#hero p {
+    font-size: 20px;
+  }
+
+  section#hero h1,
+  section#hero p {
+    color: rgb(17, 16, 16);
+  }
+
+  /* BIO SECTION #474646  */
+  #bio-section {
+    background-color: #151516;
+    border-top: 0.5px solid #3F3F3F;
+    border-bottom: 0.5px solid #3F3F3F;
+  }
+  #bio-img-container, #bio-button, #news-summary {
+    width: 49.99999%;
+    float: left;
+  }
+  #band-summary, #epk-button, #soundcloud-div {
+    width: 49.99999%;
+    float: right;
+  }
+  #band-summary {
+    margin-top: 50px;
+    color: #999;
+  }
+
+  /* NEWS / EVENTS / LISTEN SECTION */
+  #music-section {
+    /* height: 100%; */
+    border-bottom: 0.5px solid #3F3F3F;
+    background-color: #141414;
+  }
+  #event-summary .w3-row {
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #3F3F3F;
+  }
+  /* Default highlight color */
+  #event-summary h4, .boku-highlight {
+    color: #0C8FF9;
+  }
+  .boku-backlit {
+    /* background-color: #141414; */
+    background-color: #4B4C3E;
+    color: #0C8FF9;
+  }
+  #img-home {
+    max-width: 100%;
+  }
+
+  #news-image {
+    margin-bottom: 25px;
+    height: 500px;
+    width: auto;
+  }
+  /* VIDEO SECTION */
+  #featured-video {
+    width: 100%;
+    height: 1080px;
+  }
+  /* FOOTER SECTION */
+  footer {
+    background-color: #151516;
+    border-top: 0.5px solid #3F3F3F;
+  }
+  /* SPACE BETWEEN SECTIONS */
+  #music-section, #video-section, #bio-section {
+    padding: 50px 0px;
+  }
+  #mailing-list-form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 35px 0px;
+    color: #999;
+  }
+  #copyright-info {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    color: #999;
+    background-color: #333;
+    padding: 30px 0;
+  }
+  /*  --------------------------------------- RESPONSIVE CHANGES -- */
+  @media screen and (max-width: 1399px) {
+    #band-summary {
+      margin-top: 10px;
+    }
+    #mailing-list-form {
+      width: 45%;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    /* VIDEO SECTION */
+    #featured-video {
+      height: 720px;
+    }
+  }
+  @media screen and (max-width: 1231px) {
+    /* ------------------------ Bio Summary Changes on Home page */
+    .band-text-summary {
+      font-size: 20px;
+    }
+    #band-summary {
+      margin-top: 0px;
+    }
+    /* ------------------- Music/News Summary Changes on Home page */
+    #soundcloud-plugin {
+      height: 700px;
+      width: 85%;
+    }
+    #news-text {
+    }
+    #mailing-list-form {
+      width: 40%;
+    }
+  }
+  /* -------------------------------- up to this width do this */
+  @media screen and (max-width: 1035px) {
+    .band-text-summary {
+      font-size: 18px;
+    }
+    .button-global {
+      font-size: 16px;
+    }
+    #mailing-list-form {
+      width: 45%;
+    }
+    section#hero h1,
+    section#hero p {
+      color: #fff;
+    }
+    
+  }
+  @media screen and (max-width: 937px) {
+  
+    header {
+      display: none;
+    }
+    /* ------------------------ Bio Summary Changes on Home page */
+    #bio-img-container {
+      width: 100%;
+      float: none;
+      padding: 25px;
+      margin-top: 35px;
+    }
+    #band-summary {
+      width: 100%;
+      float: none;
+      padding: 0px 25px;
+    }
+    .band-text-summary {
+      font-size: 22px;
+    }
+    .button-global {
+      font-size: 20px;
+    }
+    /* ------------------- Music/News Summary Changes on Home page */
+    #news-summary, #soundcloud-div {
+      float: none;
+      width: 100%;
+    }
+    #news-summary {
+      margin-top: 50px;
+      border-top: 1px solid #000;
+      padding-top: 20px;
+    }
+  
+    #news-image {
+      margin-bottom: 25px;
+      height: 700px;
+      width: auto;
+    }
+    /* VIDEO SECTION */
+    #featured-video {
+      height: 576px;
+    }
+    #mailing-list-form {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #top-bar {
+      height: 75px;
+    }
+    #main-logo {
+      display: none;
+    }
+    #logo-mobile {
+      display: block;
+      width: 300px;
+      margin: 0px auto 30px auto;
+    }
+    /* change position of main navigation */
+    .w3-display-topmiddle {
+      left: 10%!important;
+    }
+    .band-text-summary {
+      font-size: 18px;
+    }
+    .button-global {
+      font-size: 16px;
+    }
+    /* ------------------- Music/News Summary Changes on Home page */
+
+    #news-image {
+      margin-bottom: 25px;
+      height: 500px;
+      width: auto;
+    }
+    #news-summary h1 {
+      border-top: 0.5px solid #3F3F3F;
+      padding-top: 20px;
+    }
+    #music-section {
+      background-color: #000000;
+    }
+    #featured-video {
+      height: 480px;
+    }
+    #mailing-list-form {
+      width: 80%;
+    }
+    #mailing-list-form h2 {
+      font-size: 24px;
+    }
+    #copyright-info p {
+      font-size: 10px;
+    }
+  }
+  

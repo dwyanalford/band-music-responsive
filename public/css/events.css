@@ -1,0 +1,43 @@
+.event-left-image {
+    width: 49.99999%;
+    float: left;
+  }
+  .event-right-image {
+    width: 49.99999%;
+    float: left;
+  }
+  .event-right-image, .event-left-image {
+    padding: 40px;
+  }
+  #event-images img {
+    width: 100%;
+    border: 1px solid #3F3F3F;
+  }
+  /*  --------------------------------------- RESPONSIVE CHANGES -- */
+  @media screen and (max-width: 1279px) {
+    .event-left-image {
+      width: 100%;
+      float: none;
+    }
+    .event-right-image {
+      width: 100%;
+      float: none;
+    }
+    .event-right-image, .event-left-image {
+      padding: 20px;
+    }
+  }
+  /* mobile view */
+  @media screen and (max-width: 600px) {
+    .event-right-image, .event-left-image {
+      padding: 0px;
+    }
+    #event-images img {
+      border: none;
+    }
+    /* this will create a good space between images */
+    .event-right-image {
+      margin: 60px 0px;
+    }
+  }
+  
